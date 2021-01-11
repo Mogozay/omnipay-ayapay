@@ -1,0 +1,44 @@
+{
+    "name": "Mogozay/omnipay-ayapay",
+    "type": "library",
+    "description": "Modified Mogozay Secure Acceptance driver for the ayapay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "Mogozay",
+        "secure",
+        "acceptance",
+        "checkout",
+        "web",
+        "mobile",
+        "redirect"
+    ],
+    "homepage": "https://github.com/Mogozay/omnipay-ayapay.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mogozay",
+            "email": "tech@mogozay.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ayapay\\Mogozay\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Ayapay\\Mogozay\\" : "tests/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
