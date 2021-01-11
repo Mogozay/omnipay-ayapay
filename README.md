@@ -8,7 +8,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "Mogozay/omnipay-ayapay": "~1.0.0"
+        "mogozay/omnipay-ayapay": "~1.0.0"
     }
 }
 ```
