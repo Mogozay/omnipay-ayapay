@@ -11,7 +11,7 @@ use Ayapay\Mogozay\Message\PurchaseRequest;
  *
  * @link https://www.cybersource.com/developers/getting_started/integration_methods/secure_acceptance_wm/
  */
-class HostedGateway extends AbstractGateway
+class AyapayGateway extends AbstractGateway
 {
     public function getName()
     {

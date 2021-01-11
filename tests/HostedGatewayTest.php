@@ -5,7 +5,7 @@ namespace Ayapay\Mogozay;
 use Omnipay\Tests\GatewayTestCase;
 use Mockery as m;
 
-class HostedGatewayTest extends GatewayTestCase
+class AyapayGatewayTest extends GatewayTestCase
 {
     /** @var array */
     protected $options;
@@ -14,7 +14,7 @@ class HostedGatewayTest extends GatewayTestCase
     {
         parent::setUp();
 
-        $this->gateway = new HostedGateway($this->getHttpClient(), $this->getHttpRequest());
+        $this->gateway = new AyapayGateway($this->getHttpClient(), $this->getHttpRequest());
 
         $this->options = array(
             'amount' => '1.450',
