@@ -1,5 +1,5 @@
 {
-    "name": "Mogozay/omnipay-ayapay",
+    "name": "mogozay/omnipay-ayapay",
     "type": "library",
     "description": "Modified Mogozay Secure Acceptance driver for the ayapay payment processing library",
     "keywords": [
